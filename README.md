@@ -6,7 +6,7 @@ A comprehensive threat intelligence platform that protects your entire digital e
 
 ## Architecture Overview
 
-![CTI-V4 Architecture](https://raw.githubusercontent.com/YourOrg/CTI-V4/main/docs/images/architecture.png)
+![CTI-V4 Architecture](https://raw.githubusercontent.com/DataGuys/CentralThreatIntelligenceV4/refs/heads/main/images/architecture-diagram1.svg)
 
 ### Key Architectural Principles
 
