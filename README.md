@@ -78,7 +78,7 @@ Tracks how indicators perform in your environment:
 For a one-click deployment experience, use this command in Azure Cloud Shell:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/YourOrg/CTI-V4/main/deploy.sh | bash -s -- -l eastus -p cti -e prod
+curl -sL https://raw.githubusercontent.com/DataGuys/CentralThreatIntelligenceV4/refs/heads/main/deploy-oneliner.sh | bash -s -- -l eastus -p cti -e prod
 ```
 
 ### Configuration Options
