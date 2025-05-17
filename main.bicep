@@ -1,4 +1,3 @@
-// main.bicep
 targetScope = 'subscription'
 
 @description('Prefix for all resources')
