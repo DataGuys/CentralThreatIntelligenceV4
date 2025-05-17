@@ -9,7 +9,8 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 REPO_BRANCH="${REPO_BRANCH:-main}"
-RAW_BASE="https://raw.githubusercontent.com/DataGuys/CentralThreatIntelligenceV4/${REPO_BRANCH}"
+
+RAW_BASE="https://raw.githubusercontent.com/DataGuys/CentralThreatIntelligenceV4/refs/heads/${REPO_BRANCH}"
 DEPLOY_NAME="cti-v4-$(date +%Y%m%d%H%M%S)"
 
 echo -e "\n${BLUE}============================================================${NC}"
