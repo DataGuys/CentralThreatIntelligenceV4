@@ -12,7 +12,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 REPO_BRANCH="${REPO_BRANCH:-main}"
-RAW_BASE="https://raw.githubusercontent.com/YourOrg/CTI-V4/${REPO_BRANCH}"
+RAW_BASE="https://raw.githubusercontent.com/Dataguys/CentralThreatIntelligenceV4/${REPO_BRANCH}"
 DEPLOY_NAME="cti-v4-$(date +%Y%m%d%H%M%S)"
 
 echo -e "\n${BLUE}============================================================${NC}"
@@ -20,7 +20,7 @@ echo -e "${BLUE}    Central Threat Intelligence V4 - Inoculation Engine    ${NC}
 echo -e "${BLUE}============================================================${NC}"
 
 # Parse command line arguments
-LOCATION=""
+LOCATION="westus2"
 PREFIX="cti"
 ENVIRONMENT="prod"
 TABLE_PLAN="Analytics"
@@ -174,7 +174,7 @@ fi
 echo -e "${YELLOW}Storing app registration client secret in Key Vault...${NC}"
 az keyvault secret set \
     --vault-name "$KEYVAULT_NAME" \
-    --name "CTI-APP-SECRET" \
+    --name "ctiappsecret" \
     --value "$SECRET_RESULT" \
     --output none
 
