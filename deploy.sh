@@ -1,9 +1,6 @@
 #!/bin/bash
 # Central Threat Intelligence V4 - Full Deployment Script
 # This script creates the app registration, deploys the inoculation engine, and configures all connectors
-
-set -e
-
 # Color definitions for output
 RED='\033[0;31m'
 GREEN='\033[0;32m'
